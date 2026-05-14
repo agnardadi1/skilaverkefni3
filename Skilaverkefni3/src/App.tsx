@@ -122,6 +122,7 @@ function App() {
 
   /* ==========================================================================
      4. RENDER HELPERS
+      Hér eru hjálparfall fyrir að rendera navigation dots og aðra hluti sem endurtaka sig.
      ========================================================================== */
   const renderNavDots = () => (
     <div className="nav-dots">
@@ -154,6 +155,7 @@ function App() {
 
   /* ==========================================================================
      5. START SCREEN & SETTINGS
+      Hér er allt sem tengist byrjunar skjánum og stillingum fyrir quizið.
      ========================================================================== */
   return (
     <div className="app-container">
@@ -228,6 +230,7 @@ function App() {
           {!showResults ? (
             /* ==========================================================================
                6. ACTIVE QUIZ (LEIKURINN)
+                Hér er allt sem tengist því að spila quizið: Sýna spurningar, svara og fleira.
                ========================================================================== */
             <div className="quiz-card">
               <button
@@ -307,6 +310,7 @@ function App() {
           ) : (
             /* ==========================================================================
                7. RESULTS & REVIEW MODE
+                Hér er allt sem tengist því að skoða niðurstöður og fara yfir spurningar í review mode.
                ========================================================================== */
             <div className="results-wrapper">
               <button
