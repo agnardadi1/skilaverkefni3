@@ -11,7 +11,7 @@ npm install
 
 Síðan seturu þessa skipun í terminal:
 npm run dev
-Eftir þetta ættir þú að geta opnað síðuna í http://localhost: í vafranum.
+Eftir þetta ættir þú að geta opnað síðuna http://localhost: í vafranum.
 
 -Virkni síðunar-
 Forritið inniheldur alla grunnvirkni sem beðið var um:
@@ -42,4 +42,4 @@ Confetti: Notaði canvas-confetti til að fagna þegar quizið er klárað.
 Email Link: Tákn neðst á forsíðu til að senda póst.
 
 -Auka upplýsingar-
-Í app.css og app.tsx skránni ákvað ég að prófa að flokka allt svo það auðveldi mér að finna og laga villur og fyrir ykkur að meta
+Í app.css og app.tsx skránni ákvað ég að prófa að flokka allt svo það myndi auðveldi mér að finna og laga villur og fyrir ykkur að lesa
