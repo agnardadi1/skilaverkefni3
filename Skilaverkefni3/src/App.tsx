@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
+/* --- NPM pakkar --- */
 import confetti from "canvas-confetti";
 import { X, Mail } from "lucide-react";
+
 import "./App.css";
 
 /* --- Spurningar og Niðurstöður --- */
