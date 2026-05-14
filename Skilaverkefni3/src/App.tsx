@@ -12,7 +12,7 @@ import { Result } from "./components/Results";
 function App() {
   /* ==========================================================================
      1. STATE 
-     Hér geymum við öll gögn sem breytast: Stillingar, svör og tíma.
+     Hér geymum við öll gögn sem breytast: Stillingar, spurningar og svör og tíma.
      ========================================================================== */
   const [isStarted, setIsStarted] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
