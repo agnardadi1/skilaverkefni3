@@ -9,9 +9,9 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #2b2b2c; /* Dökkgrár NBA-stíll */
+  background-color: #2b2b2c;
   overflow: hidden;
-  font-family: sans-serif; /* Gott að hafa grunn-letur */
+  font-family: sans-serif;
 }
 
 .app-container {
@@ -128,7 +128,7 @@ h1 {
 .settings-label input[type="checkbox"] {
   width: 18px;
   height: 18px;
-  accent-color: #c8102e; /* NBA Rauður */
+  accent-color: #c8102e;
 }
 
 .timer-display {

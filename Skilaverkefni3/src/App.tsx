@@ -175,7 +175,7 @@ function App() {
             <ul>
               <li>Svaraðu öllum {questions.length} spurningunum.</li>
               <li>Skoðaðu svörin þín í lokin.</li>
-              <li>Gangi þér vel! 🏀</li>
+              <li>Gangi þér vel! </li>
             </ul>
           </div>
 
@@ -189,7 +189,7 @@ function App() {
                   setSettings({ ...settings, showTimer: e.target.checked })
                 }
               />
-              <span>Hafa tímamæli ⏱️</span>
+              <span>Hafa timer ⏱️</span>
             </label>
             <label className="settings-label">
               <input
@@ -217,7 +217,7 @@ function App() {
           </div>
 
           <button className="start-btn" onClick={() => setIsStarted(true)}>
-            Hefja Quiz 🏀
+            Hefja Quiz
           </button>
           <a
             href="mailto:agnardadi1@gmail.com"
